@@ -1,14 +1,12 @@
-const nrPrincipal = ` `
-
-prompt = (`Escreva um número qualquer: ${nrPrincipal}`);
+const nrPrincipal = Number(prompt(`Escreva um número qualquer: `));
 
 let contador = -1;
 
-alert(`A tabuada do número ${nrPrincipal} é: `);
+let produto = nrPrincipal * contador;
 
 while (contador++ < 10)
 {    
-    let produto = nrPrincipal * contador;
-    `${nrPrincipal} x ${contador} = ${produto}`;
+    let mensagem = `${nrPrincipal} x ${contador} = ${produto}`;
 }
-return;
+
+alert(`A tabuada do número ${nrPrincipal} é: ${mensagem}`);
