@@ -6,7 +6,7 @@ let produto = nrPrincipal * contador;
 
 while (contador++ < 10)
 {    
-    let mensagem = `${nrPrincipal} x ${contador} = ${produto}`;
+    let mensagem += `\n${nrPrincipal} x ${contador} = ${produto}`;
 }
 
 alert(`A tabuada do número ${nrPrincipal} é: ${mensagem}`);
