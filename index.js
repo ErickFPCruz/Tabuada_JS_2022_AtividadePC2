@@ -1,6 +1,7 @@
 const nrPrincipal = Number(prompt(`Escreva um número qualquer: `));
 
 let contador = -1;
+
 let mensagem = '';
 
 let produto = null;
